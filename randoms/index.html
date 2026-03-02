@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FakeTubes</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+  <div class="nav-left">
+    <span class="material-icons">menu</span>
+    <div class="logo">
+      <span class="material-icons">smart_display</span>
+      YouTube <small style="font-size:10px;color:#aaa">ZA</small>
+    </div>
+  </div>
+
+  <div class="search-bar">
+    <input type="text" placeholder="Search">
+    <button><span class="material-icons">search</span></button>
+  </div>
+
+  <div class="nav-icons">
+    <span class="material-icons">mic</span>
+    <div class="icon-btn"><span class="material-icons">add</span></div>
+    <span class="material-icons">notifications</span>
+
+    <!-- Dark/Light Mode Toggle -->
+    <label class="toggle-switch">
+      <input type="checkbox" id="mode-toggle" onchange="document.body.classList.toggle('light-mode')">
+      <span class="slider"></span>
+    </label>
+
+    <div class="icon-btn" style="background:#3ea6ff;color:#000;font-weight:bold">K</div>
+  </div>
+</div>
+
+<div class="container">
+
+<!-- SIDEBAR -->
+<div class="sidebar">
+  <div class="sidebar-item"><span class="material-icons">home</span>Home</div>
+  <div class="sidebar-item"><span class="material-icons">smart_display</span>Shorts</div>
+  <div class="sidebar-item"><span class="material-icons">subscriptions</span>Subs</div>
+  <div class="sidebar-item"><span class="material-icons">person</span>You</div>
+</div>
+
+<!-- CONTENT -->
+<div class="content">
+
+<div class="categories">
+  <div class="category active">All</div>
+  <div class="category">Podcasts</div>
+  <div class="category">Music</div>
+  <div class="category">Gaming</div>
+  <div class="category">News</div>
+  <div class="category">ASMR</div>
+  <div class="category">Game Shows</div>
+  <div class="category">Live</div>
+  <div class="category">Couples</div>
+  <div class="category">Cars</div>
+  <div class="category">Dramedy</div>
+  <div class="category">Watched</div>
+  <div class="category">New to you</div>
+  <div class="category">Recently added</div>
+</div>
+
+<div class="videos">
+
+<!-- VIDEO 1 -->
+<div class="video-card">
+  <div class="thumbnail-wrapper">
+    <img class="thumb" src="https://img.youtube.com/vi/7ELHRMxtdPk/hqdefault.jpg">
+    <iframe class="preview"
+      src="https://www.youtube.com/embed/7ELHRMxtdPk?autoplay=1&mute=1&controls=0&rel=0"
+      allow="autoplay">
+    </iframe>
+  </div>
+  <div class="video-details">
+    <img class="channel-avatar" src="https://yt3.googleusercontent.com/sC8nJ3ViMIRUiDXA8LbR-2ZemT51X9Dx_7NXdfeKTlK64CDgJux_cEV9lT433kryfNXiRa-4rQ=s160-c-k-c0x00ffffff-no-rj">
+    <div class="video-text">
+      <h4>The Black Couch Series</h4>
+      <p>Kingsley Mudau</p>
+      <p>24.5k Subscribers</p>
+    </div>
+  </div>
+</div>
+
+<!-- VIDEO 2 -->
+<div class="video-card">
+  <div class="thumbnail-wrapper">
+    <img class="thumb" src="https://img.youtube.com/vi/mm245A3js0w/hqdefault.jpg">
+    <iframe class="preview"
+      src="https://www.youtube.com/embed/mm245A3js0w?autoplay=1&mute=1&controls=0&rel=0"
+      allow="autoplay">
+    </iframe>
+  </div>
+  <div class="video-details">
+    <img class="channel-avatar" src="https://yt3.googleusercontent.com/tm5VqVvQi1kRBijRFg2GXzkjQTUVtIuhN25KMK7LwD6gvOTMAoqFhwVn-wNg6VmOVBePPPo7iA=s160-c-k-c0x00ffffff-no-rj">
+    <div class="video-text">
+      <h4>Grace Mondlana's Highest Stakes Game</h4>
+      <p>Deal or No Deal South Africa ✓</p>
+      <p>54.7k Subscribers</p>
+    </div>
+  </div>
+</div>
+
+<!-- VIDEO 3 -->
+<div class="video-card">
+  <div class="thumbnail-wrapper">
+    <img class="thumb" src="https://img.youtube.com/vi/G3e-cpL7ofc/hqdefault.jpg">
+    <iframe class="preview"
+      src="https://www.youtube.com/embed/G3e-cpL7ofc?autoplay=1&mute=1&controls=0&rel=0"
+      allow="autoplay">
+    </iframe>
+  </div>
+  <div class="video-details">
+    <img class="channel-avatar" src="https://yt3.googleusercontent.com/ytc/AIdro_laf9dDyNATE1_RdVUKthwnwT9TSm9N0my0jL2H8gCvjw=s160-c-k-c0x00ffffff-no-rj">
+    <div class="video-text">
+      <h4>HTML & CSS Full Course</h4>
+      <p>SuperSimpleDev</p>
+      <p>780k Subscribers</p>
+    </div>
+  </div>
+</div>
+
+<!-- VIDEO 4 -->
+<div class="video-card">
+  <div class="thumbnail-wrapper">
+    <img class="thumb" src="https://img.youtube.com/vi/xWnAaiC3g-8/hqdefault.jpg">
+    <iframe class="preview"
+      src="https://www.youtube.com/embed/xWnAaiC3g-8?autoplay=1&mute=1&controls=0&rel=0"
+      allow="autoplay">
+    </iframe>
+  </div>
+  <div class="video-details">
+    <img class="channel-avatar" src="https://yt3.googleusercontent.com/l428l4bonj0HZDZLL-XJ7n5NK25q1lULw_47BXwt0W4ixPWz_bTFHybtbWorVJFRFRRiGAih=s160-c-k-c0x00ffffff-no-rj">
+    <div class="video-text">
+      <h4>Will 8 Uni Students Betray themselves for 1 million naira</h4>
+      <p>Cruise ✓</p>
+      <p>372k Subscribers</p>
+    </div>
+  </div>
+</div>
+
+<!-- VIDEO 5 -->
+<div class="video-card">
+  <div class="thumbnail-wrapper">
+    <img class="thumb" src="https://img.youtube.com/vi/gZtGPQ4109w/hqdefault.jpg">
+    <iframe class="preview"
+      src="https://www.youtube.com/embed/gZtGPQ4109w?autoplay=1&mute=1&controls=0&rel=0"
+      allow="autoplay">
+    </iframe>
+  </div>
+  <div class="video-details">
+    <img class="channel-avatar" src="https://yt3.googleusercontent.com/ZM8xjMi6wlkz7Hsn9Xphyx6-b1hPm-bTByW6Q9tnxnE3oXJa6lsjJK3CkzCOCG8TgHIgqx4ZXA=s160-c-k-c0x00ffffff-no-rj">
+    <div class="video-text">
+      <h4>How Much I Spend Living In Cape Town as a Software Engineer</h4>
+      <p>BM TV</p>
+      <p>33k Subscribers</p>
+    </div>
+  </div>
+</div>
+
+<!-- VIDEO 6 -->
+<div class="video-card">
+  <div class="thumbnail-wrapper">
+    <img class="thumb" src="https://img.youtube.com/vi/tcZ3lATN8w4/hqdefault.jpg">
+    <iframe class="preview"
+      src="https://www.youtube.com/embed/tcZ3lATN8w4?autoplay=1&mute=1&controls=0&rel=0"
+      allow="autoplay">
+    </iframe>
+  </div>
+  <div class="video-details">
+    <img class="channel-avatar" src="https://img.youtube.com/vi/gZtGPQ4109w/hqdefault.jpg">
+    <div class="video-text">
+      <h4>3 hour ASMR compilation </h4>
+      <p>Nayomy ASMR</p>
+      <p>58.6k Subscribers</p>
+    </div>
+  </div>
+</div>
+
+</div>
+</div>
+</div>
+</body>
+</html>
